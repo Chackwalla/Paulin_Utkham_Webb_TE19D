@@ -1,0 +1,130 @@
+/* Common shtuff and CV */
+body{
+    margin: 0;
+    background-image: url("https://media.discordapp.net/attachments/714782809482461197/756633475666280448/fantasy_tempel_orig.png"); /* The image used */
+    background-color: #9291f7; /* Used if the image is unavailable */
+    height: 990px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: 2; /* Do not repeat the image */
+    background-size: cover;
+}
+#banner{
+    border: 1px solid black;
+    /*border-bottom: 2px solid black;*/
+    width: 100%; 
+    height: 100px; 
+    min-width: 650px;
+    position: relative; 
+    background-color: #bbbbf9;
+}
+#lobster{
+    padding: 0px 0 0 10px;
+    width: 100%;
+    height: 50%;
+    font-size: 30px;
+    font-family: lobster;
+    display: flex;
+    align-items: center; /* align vertical */
+}
+#smt{
+    position: absolute; 
+    bottom: 0px; 
+    width: 100%; 
+    height: 50%;
+}
+#buttons{
+    width: 648px; 
+    height: 100%; 
+    margin: 0 auto; 
+    border: 0px solid black; 
+    border-right-width: 1px;
+}
+div {
+    box-sizing: border-box;
+    
+}
+div.page{
+    width: 25%;
+    height: 100%;
+    border: 0px solid black;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    background-color: #b4ffff;
+    float: left;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+        
+    box-shadow: -1px -1px 7px rgba(0, 0, 0, 0.5) inset;
+    cursor: pointer;
+}
+div.page:active {
+    background-color: #69c5d1;
+}
+div.activepage{
+    background-color: #98f0f0;
+}
+.aaa{
+    text-decoration-color: black;
+}
+#content{
+    margin: 0 auto;
+    height: auto;
+    width: 648px;
+    background-color: white;
+    border: 0px solid black;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    padding: 5px;
+}
+#ocean{
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+#yes{
+    color:  turquoise;
+}
+#kitty_council{
+    width: 618px;
+    border-color: #00dfdb;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+/* INTERESTS */
+#kpopgbg{
+    width: 626px;
+    border-color: #80ffeea8;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+/* SCHOOL */
+
+#NTI{
+    width: 618px;
+    border-color: #ac80ff7a;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 30px;
+}
+#bullet{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 100px;
+}
+#spilled{
+    width: 625px;
+    border-color: #00dfdb;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
