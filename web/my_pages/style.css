@@ -75,7 +75,7 @@ div.activepage{
     border: 0px solid black;
     border-left-width: 1px;
     border-right-width: 1px;
-    padding: 5px;
+    padding: 5px; 
 }
 #ocean{
     display: flex;
